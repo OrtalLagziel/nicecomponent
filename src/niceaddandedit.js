@@ -1,4 +1,4 @@
-angular.module('niceaddmodule')
+angular.module('niceaddmodule', ['templates-niceaddandedit'])
 
     .directive('niceaddandedit', function ($translate) {
         'use strict';
