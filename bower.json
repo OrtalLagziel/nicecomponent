@@ -2,7 +2,8 @@
   "name": "niceaddandedit",
   "version": "0.0.1",
   "main": [
-    "dist/niceaddandedit.js","dist/niceaddandedit.css"
+    "dist/niceaddandedit.js",
+    "dist/niceaddandedit.css"
   ],
   "niceComponent": true,
   "dependencies": {
@@ -12,8 +13,12 @@
     "angular-translate": "2.10.0",
     "angular-translate-loader-static-files": "2.10.0",
     "angular-translate-handler-log": "2.10.0"
-
   },
-  "devDependencies": {
-  }
+  "devDependencies": {},
+  "authors": [
+    "ortalla <ortal.lagziel@nice.com>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "homepage": ""
 }
