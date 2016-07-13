@@ -26,7 +26,7 @@ angular.module("niceaddandedit.html", []).run(["$templateCache", function($templ
     "");
 }]);
 
-angular.module('niceaddmodule')
+angular.module('niceaddmodule', ['templates-niceaddandedit'])
 
     .directive('niceaddandedit', ["$translate", function ($translate) {
         'use strict';
